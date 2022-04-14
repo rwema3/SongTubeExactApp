@@ -28,6 +28,5 @@ SongTube is a new beautiful and fast application made in flutter, it supports Yo
 
 ## Developer's Info
 
-- Português (Thanks to [@RickyM7](https://github.com/RickyM7))
-- Igbo (Thanks to [@enweazudaniel](https://github.com/enweazudaniel))
-- Indonesian (Thanks to [@breakdowns](https://github.com/breakdowns))
+- Twitter: (Click [@rwema3](https://twitter.com/R_w_e_m_a))
+- GitHub Page (Click [@github](https://github.com/rwema3))
