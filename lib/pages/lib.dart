@@ -78,7 +78,8 @@ class _LibState extends State<Lib> {
         PreferencesProvider prefs = Provider.of<PreferencesProvider>(context, listen: false);
         DownloadsProvider downloads = Provider.of<DownloadsProvider>(context, listen: false);
         if (downloads.downloadingList.isNotEmpty ||
-          d
+          downloads.completedList.isNotEmpty
+        ) {
                  
                    
                   
