@@ -80,7 +80,9 @@ class _LibState extends State<Lib> {
         if (downloads.downloadingList.isNotEmpty ||
           downloads.completedList.isNotEmpty
         ) {
-          if (prefs.showJoinTelegramD
+          if (prefs.showJoinTelegramDialog && prefs.remindTelegramLater == false) {
+            showModalBottomSheet(
+              shape: RoundedRectangle
                  
                    
                   
