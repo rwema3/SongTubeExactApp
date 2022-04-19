@@ -158,6 +158,7 @@ class _LibState extends State<Lib> {
         .parse(android.version.replaceRange(3, 5, ""));
       getLatestRelease().then((details) {
         double newVersion = double.parse(details.version
+          .split("+").first.trim().replaceRange(3, 5, ""));
 
   
  
