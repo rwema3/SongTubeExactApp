@@ -355,5 +355,4 @@ class _LibState extends State<Lib> {
                 mediaProvider.textColor == Colors.black ? Brightness.dark : Brightness.light : null : iconColor,
             ),
           );
-        } else if (position < 0.95) {
  
