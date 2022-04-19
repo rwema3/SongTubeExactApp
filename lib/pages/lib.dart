@@ -346,4 +346,5 @@ class _LibState extends State<Lib> {
         int sdkInt = config.preferences.sdkInt;
         final iconColor = Theme.of(context).brightness == Brightness.dark
           ? Brightness.light : Brightness.dark;
+        if (position > 0.95) {
  
