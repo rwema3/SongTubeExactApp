@@ -95,7 +95,7 @@ class _LibState extends State<Lib> {
             );
           }
         }
-        String intent  
+        String intent = 
            
         
         
