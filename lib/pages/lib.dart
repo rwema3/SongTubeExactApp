@@ -124,7 +124,7 @@ class _LibState extends State<Lib> {
     ConfigurationProvider config = Provider.of<ConfigurationProvider>(context, listen: false);
     // Build our list of BottomSheets to show
     List<Widget> bottomSheets = [];
-    if (!config.di
+    if (!config.d
       
   
     
