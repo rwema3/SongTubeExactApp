@@ -322,6 +322,5 @@ class _LibState extends State<Lib> {
   }
 
   FloatingWidgetTwins _musicPlayerTwins() {
-    return FloatingWidgetTwins(
  
  
