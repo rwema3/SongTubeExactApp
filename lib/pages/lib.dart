@@ -240,6 +240,9 @@ class _LibState extends State<Lib> {
                   manager.currentHomeTab = HomeScreenTab.Trending;
                   return Future.value(false);
                 } else {
+                  return Future.value(true);
+                }
+              },
  
   
  
