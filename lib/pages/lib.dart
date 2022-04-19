@@ -201,6 +201,7 @@ class _LibState extends State<Lib> {
         .infoItem = playlist.toPlaylistInfoItem();
       Navigator.pop(context);
     }
+  }
 
   
  
