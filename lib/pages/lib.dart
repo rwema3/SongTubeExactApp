@@ -183,7 +183,6 @@ class _LibState extends State<Lib> {
     if (streamId != null) {
       showDialog(
         context: context,
-        builder: (_) => LoadingDialog()
 
   
  
