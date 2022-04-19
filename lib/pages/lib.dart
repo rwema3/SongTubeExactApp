@@ -369,5 +369,4 @@ class _LibState extends State<Lib> {
 
   FloatingWidgetController _currentFloatingWidgetController() {
     MediaProvider mediaProvider = Provider.of<MediaProvider>(context);
-    VideoPageProvider pageProvider = Provider.of<VideoPageProvider>(context);
  
