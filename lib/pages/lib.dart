@@ -359,12 +359,4 @@ class _LibState extends State<Lib> {
           SystemChrome.setSystemUIOverlayStyle(
             SystemUiOverlayStyle(
               statusBarIconBrightness: iconColor,
-              systemNavigationBarIconBrightness: iconColor,
-            ),
-          );
-        }
-      }
-    );
-  }
-
  
