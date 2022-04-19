@@ -41,6 +41,8 @@ import 'package:songtube/ui/sheets/joinTelegram.dart';
 import 'package:songtube/ui/dialogs/loadingDialog.dart';
 import 'package:songtube/ui/sheets/disclaimer.dart';
 import 'package:songtube/ui/sheets/downloadFix.dart';
+import 'package:songtube/ui/internal/lifecycleEvents.dart';
+
 
                  
                    
