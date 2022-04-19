@@ -117,7 +117,7 @@ class _LibState extends State<Lib> {
     });
     AudioService.currentMediaItemStream.listen((event) {
       setState(() {});
-    }s
+    }
   
 
    
