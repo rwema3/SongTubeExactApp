@@ -335,4 +335,5 @@ class _LibState extends State<Lib> {
     );
   }
 
+  FloatingWidgetConfig _floatingMusicWidgetConfig() {
  
