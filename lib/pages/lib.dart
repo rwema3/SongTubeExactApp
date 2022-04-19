@@ -289,9 +289,6 @@ class _LibState extends State<Lib> {
     } else if (screenIndex == 4) {
       return LibraryScreen();
     } else {
-      return Container();
-    }
-  }
   
   
  
