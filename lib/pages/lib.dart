@@ -125,7 +125,7 @@ class _LibState extends State<Lib> {
     // Build our list of BottomSheets to show
     List<Widget> bottomSheets = [];
     if (!config.disclaimerAccepted) {
-      bott
+      botto
   
     
         
