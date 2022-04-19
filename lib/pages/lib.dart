@@ -313,6 +313,7 @@ class _LibState extends State<Lib> {
         maxHeight: MediaQuery.of(context).size.height,
       );
     } else if (AudioService?.currentMediaItem != null) {
+      return _floatingMusicWidgetConfig();
  
  
  
