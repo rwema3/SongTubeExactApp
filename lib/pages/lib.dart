@@ -196,7 +196,6 @@ class _LibState extends State<Lib> {
         builder: (_) => LoadingDialog()
       );
       YoutubePlaylist playlist = await PlaylistExtractor
-        .getPlaylistDetails(intent);
 
   
  
