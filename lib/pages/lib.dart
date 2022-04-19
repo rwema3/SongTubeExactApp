@@ -225,7 +225,6 @@ class _LibState extends State<Lib> {
                 if (pageProvider.fwController.isAttached && pageProvider.fwController.isPanelOpen) {
                   pageProvider.fwController.close();
                   return Future.value(false);
-                } else if (mediaProvider.slidingPanelOpen) {
  
   
  
