@@ -232,6 +232,7 @@ class _LibState extends State<Lib> {
                 } else if (_screenIndex != 0) {
                   setState(() => _screenIndex = 0);
                   return Future.value(false);
+                } else if (manager.youtubeSearch != null) {
  
   
  
