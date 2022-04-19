@@ -50,10 +50,6 @@ class Lib extends StatefulWidget {
 
 class _LibState extends State<Lib> {
 
-  // Current Screen Index
-  int _screenIndex;
-
-
                  
                    
                   
