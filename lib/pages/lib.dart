@@ -205,7 +205,6 @@ class _LibState extends State<Lib> {
 
   @override
   Widget build(BuildContext context) {
-    setSystemUiColor(context);
 
   
  
