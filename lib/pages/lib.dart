@@ -349,4 +349,5 @@ class _LibState extends State<Lib> {
         if (position > 0.95) {
           SystemChrome.setSystemUIOverlayStyle(
             SystemUiOverlayStyle(
+              statusBarIconBrightness: prefs.enablePlayerBlurBackground ? mediaProvider.textColor == Colors.black
  
