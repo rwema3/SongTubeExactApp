@@ -171,6 +171,7 @@ class _LibState extends State<Lib> {
             ),
             context: context,
             builder: (context) => AppUpdateSheet(details)
+          );
 
   
  
