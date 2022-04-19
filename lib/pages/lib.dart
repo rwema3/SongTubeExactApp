@@ -179,6 +179,7 @@ class _LibState extends State<Lib> {
 
   void _handleIntent(String intent) async {
     String streamId = await YoutubeId.getIdFromStreamUrl(intent);
+    String playlistId = await YoutubeId.getIdFromPlaylistUrl(intent);
 
   
  
