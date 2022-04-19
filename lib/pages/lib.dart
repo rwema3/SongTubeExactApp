@@ -300,7 +300,6 @@ class _LibState extends State<Lib> {
     } else {
       if (AudioService?.currentMediaItem != null) {
         return _musicPlayerTwins();
-      } else {
   
  
  
