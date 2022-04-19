@@ -280,6 +280,7 @@ class _LibState extends State<Lib> {
   Widget _currentScreen(screenIndex) {
     if (screenIndex == 0) {
       return HomeScreen();
+    } else if (screenIndex == 1) {
   
   
  
