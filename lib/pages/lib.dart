@@ -136,7 +136,7 @@ class _LibState extends State<Lib> {
     if (bottomSheets.isNotEmpty) {
       showModalBottomSheet(
         isDismissible: false,
-        enableDrag: f
+        enableDrag: fa
          
         
            
