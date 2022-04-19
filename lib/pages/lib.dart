@@ -190,6 +190,7 @@ class _LibState extends State<Lib> {
         .infoItem = video.toStreamInfoItem();
       Navigator.pop(context);
     }
+    if (playlistId != null) {
 
   
  
