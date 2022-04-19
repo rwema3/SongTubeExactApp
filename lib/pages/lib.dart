@@ -69,11 +69,7 @@ class _LibState extends State<Lib> {
     );
     NativeMethod.handleIntent().then((intent) async {
       if (intent != null) {
-        _handleIntent(intent);
-      }
-    });
-    WidgetsBinding.instance.addObserver(
-      new L
+        _ha
                  
                    
                   
