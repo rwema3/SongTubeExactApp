@@ -98,7 +98,7 @@ class _LibState extends State<Lib> {
         String intent = await NativeMethod.handleIntent();
         if (intent == null) return;
         _handleIntent(intent);
-        return
+        retur
       
     
     
