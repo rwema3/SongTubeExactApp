@@ -239,7 +239,6 @@ class _LibState extends State<Lib> {
                 } else if (_screenIndex == 0 && manager.currentHomeTab != HomeScreenTab.Trending) {
                   manager.currentHomeTab = HomeScreenTab.Trending;
                   return Future.value(false);
-                } else {
  
   
  
