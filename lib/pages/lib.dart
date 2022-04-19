@@ -95,7 +95,7 @@ class _LibState extends State<Lib> {
             );
           }
         }
-        String intent = await NativeMethod.han
+        String intent = await NativeMethod.hand 
            
         
         
