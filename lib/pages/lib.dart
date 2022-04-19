@@ -331,8 +331,5 @@ class _LibState extends State<Lib> {
   FloatingWidgetTwins _youtubePlayerTwins() {
     return FloatingWidgetTwins(
       expanded: YoutubePlayerVideoPage(),
-      collapsed: VideoPageCollapsed()
-    );
-  }
-
+ 
  
