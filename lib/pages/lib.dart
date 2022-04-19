@@ -113,8 +113,6 @@ class _LibState extends State<Lib> {
       _checkForUpdates();
     });
     AudioService.runningStream.listen((_) {
-      setState(() {});
-    });
       
     
   
