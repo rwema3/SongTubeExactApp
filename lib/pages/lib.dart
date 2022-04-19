@@ -210,7 +210,6 @@ class _LibState extends State<Lib> {
       onTap: () => FocusScope.of(context).requestFocus(new FocusNode()),
       child: _libBody()
     );
-  }
 
   
  
