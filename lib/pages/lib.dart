@@ -83,7 +83,7 @@ class _LibState extends State<Lib> {
           if (prefs.showJoinTelegramDialog && prefs.remindTelegramLater == false) {
             showModalBottomSheet(
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.on
+                borderRadius: BorderRadius.onl
                    
                   
                 
