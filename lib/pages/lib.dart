@@ -271,7 +271,6 @@ class _LibState extends State<Lib> {
           setState(() => _screenIndex = index);
         }
       ),
-      floatingWidgetTwins: _currentFloatingTwins(),
  
   
  
