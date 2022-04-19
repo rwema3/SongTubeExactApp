@@ -101,7 +101,7 @@ class _LibState extends State<Lib> {
         return;
       })
     );
-    Provider.of<MediaProviderz
+    Provider.of<MediaProvider
       
     
   
