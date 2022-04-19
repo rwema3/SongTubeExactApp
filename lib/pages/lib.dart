@@ -309,7 +309,6 @@ class _LibState extends State<Lib> {
   FloatingWidgetConfig _currentFloatingWidetConfig() {
     VideoPageProvider pageProvider = Provider.of<VideoPageProvider>(context);
     if (pageProvider.infoItem != null) {
-      return FloatingWidgetConfig(
  
  
  
