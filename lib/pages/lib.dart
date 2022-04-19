@@ -156,6 +156,7 @@ class _LibState extends State<Lib> {
     PackageInfo.fromPlatform().then((android) {
       double appVersion = double
         .parse(android.version.replaceRange(3, 5, ""));
+      getLatestRelease().then((details) {
 
   
  
