@@ -287,6 +287,7 @@ class _LibState extends State<Lib> {
     } else if (screenIndex == 3) {
       return MediaScreen();
     } else if (screenIndex == 4) {
+      return LibraryScreen();
   
   
  
