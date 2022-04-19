@@ -182,6 +182,7 @@ class _LibState extends State<Lib> {
     String playlistId = await YoutubeId.getIdFromPlaylistUrl(intent);
     if (streamId != null) {
       showDialog(
+        context: context,
 
   
  
