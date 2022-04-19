@@ -367,4 +367,5 @@ class _LibState extends State<Lib> {
     );
   }
 
+  FloatingWidgetController _currentFloatingWidgetController() {
  
