@@ -219,7 +219,6 @@ class _LibState extends State<Lib> {
       internalKey: _internalScaffoldKey,
       body: SafeArea(
         child: Consumer3<MediaProvider, ManagerProvider, VideoPageProvider>(
-          builder: (context, mediaProvider, manager, pageProvider, child) {
  
   
  
