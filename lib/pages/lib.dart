@@ -266,7 +266,6 @@ class _LibState extends State<Lib> {
       ),
       bottomNavigationBar: AppBottomNavigationBar(
         currentIndex: _screenIndex,
-        onItemTap: (int index) {
  
   
  
