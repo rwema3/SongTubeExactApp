@@ -260,6 +260,10 @@ class _LibState extends State<Lib> {
               );
             },
             duration: Duration(milliseconds: 300),
+            child: _currentScreen(_screenIndex)
+          ),
+        ),
+      ),
  
   
  
