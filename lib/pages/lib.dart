@@ -159,7 +159,6 @@ class _LibState extends State<Lib> {
       getLatestRelease().then((details) {
         double newVersion = double.parse(details.version
           .split("+").first.trim().replaceRange(3, 5, ""));
-        if (appVersion < newVersion) {
 
   
  
