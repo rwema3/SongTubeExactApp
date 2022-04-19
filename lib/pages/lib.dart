@@ -95,7 +95,7 @@ class _LibState extends State<Lib> {
             );
           }
         }
-        String intent = await Nati
+        String intent = await Nativ
            
         
         
