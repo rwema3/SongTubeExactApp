@@ -163,7 +163,6 @@ class _LibState extends State<Lib> {
           // Show the user an Update is available
           showModalBottomSheet(
             isScrollControlled: true,
-            shape: RoundedRectangleBorder(
 
   
  
