@@ -188,6 +188,7 @@ class _LibState extends State<Lib> {
       YoutubeVideo video = await VideoExtractor.getStream(intent);
       Provider.of<VideoPageProvider>(context, listen: false)
         .infoItem = video.toStreamInfoItem();
+      Navigator.pop(context);
 
   
  
