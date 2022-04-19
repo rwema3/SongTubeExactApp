@@ -57,6 +57,19 @@ class _LibState extends State<Lib> {
   GlobalKey<ScaffoldState> _internalScaffoldKey;
 
   @override
+  void initState() {
+    super.initState();
+    _screenIndex = 0;
+    var keyboardVisibilityController = KeyboardVisibilityController();
+    _internalScaffoldKey = GlobalKey<ScaffoldState>();
+    WidgetsBinding.instance.renderView.automaticSystemUiAdjustment=false;
+    keyboardVisibilityController.onChange.listen((bool visible) {
+        if (visible == false) FocusScope.of(context).unfocus();
+      }
+    );
+    NativeMethod.handleIntent().then((intent) async {
+      if (intent != null) {
+        _ha
                  
                    
                   
