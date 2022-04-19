@@ -222,7 +222,6 @@ class _LibState extends State<Lib> {
           builder: (context, mediaProvider, manager, pageProvider, child) {
             return WillPopScope(
               onWillPop: () {
-                if (pageProvider.fwController.isAttached && pageProvider.fwController.isPanelOpen) {
  
   
  
