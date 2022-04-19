@@ -376,4 +376,5 @@ class _LibState extends State<Lib> {
       if (AudioService?.currentMediaItem != null) {
         return mediaProvider.fwController;
       } else {
+        return null;
  
