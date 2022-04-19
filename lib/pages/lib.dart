@@ -256,8 +256,6 @@ class _LibState extends State<Lib> {
                 fillColor: Theme.of(context).cardColor,
                 animation: animation,
                 secondaryAnimation: secondaryAnimation,
-                child: child,
-              );
  
   
  
