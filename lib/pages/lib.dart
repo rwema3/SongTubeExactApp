@@ -340,4 +340,5 @@ class _LibState extends State<Lib> {
     PreferencesProvider prefs = Provider.of<PreferencesProvider>(context);
     ConfigurationProvider config = Provider.of<ConfigurationProvider>(context, listen: false);
     return FloatingWidgetConfig(
+      backdropBlurStrength: prefs.enableBlurUI ? 15 : 0,
  
