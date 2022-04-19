@@ -285,6 +285,7 @@ class _LibState extends State<Lib> {
     } else if (screenIndex == 2) {
       return DownloadTab();
     } else if (screenIndex == 3) {
+      return MediaScreen();
   
   
  
