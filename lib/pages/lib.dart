@@ -298,6 +298,7 @@ class _LibState extends State<Lib> {
     if (pageProvider.infoItem != null) {
       return _youtubePlayerTwins();
     } else {
+      if (AudioService?.currentMediaItem != null) {
   
  
  
