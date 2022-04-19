@@ -123,7 +123,7 @@ class _LibState extends State<Lib> {
   void _showSheets() {
     ConfigurationProvider config = Provider.of<ConfigurationProvider>(context, listen: false);
     // Build our list of BottomSheets to show
-    List<Widget> bottomSh  
+    List<Widget> bottom  
      
       
   
