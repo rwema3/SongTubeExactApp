@@ -224,6 +224,7 @@ class _LibState extends State<Lib> {
               onWillPop: () {
                 if (pageProvider.fwController.isAttached && pageProvider.fwController.isPanelOpen) {
                   pageProvider.fwController.close();
+                  return Future.value(false);
  
   
  
