@@ -215,6 +215,8 @@ class _LibState extends State<Lib> {
   Widget _libBody() {
     return FancyScaffold(
       backgroundColor: Theme.of(context).cardColor,
+      resizeToAvoidBottomInset: false,
+      internalKey: _internalScaffoldKey,
  
   
  
