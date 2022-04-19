@@ -191,7 +191,6 @@ class _LibState extends State<Lib> {
       Navigator.pop(context);
     }
     if (playlistId != null) {
-      showDialog(
 
   
  
