@@ -342,4 +342,5 @@ class _LibState extends State<Lib> {
     return FloatingWidgetConfig(
       backdropBlurStrength: prefs.enableBlurUI ? 15 : 0,
       maxHeight: MediaQuery.of(context).size.height,
+      onSlide: (double position) {
  
