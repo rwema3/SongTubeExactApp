@@ -198,6 +198,7 @@ class _LibState extends State<Lib> {
       YoutubePlaylist playlist = await PlaylistExtractor
         .getPlaylistDetails(intent);
       Provider.of<VideoPageProvider>(context, listen: false)
+        .infoItem = playlist.toPlaylistInfoItem();
 
   
  
