@@ -235,7 +235,6 @@ class _LibState extends State<Lib> {
                 } else if (manager.youtubeSearch != null) {
                   manager.youtubeSearch = null;
                   manager.setState();
-                  return Future.value(false);
  
   
  
