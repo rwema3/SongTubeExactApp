@@ -273,8 +273,6 @@ class _LibState extends State<Lib> {
       ),
       floatingWidgetTwins: _currentFloatingTwins(),
       floatingWidgetConfig: _currentFloatingWidetConfig(),
-      floatingWidgetController: _currentFloatingWidgetController(),
-    );
  
   
  
