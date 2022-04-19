@@ -107,7 +107,7 @@ class _LibState extends State<Lib> {
     Provider.of<MediaProvider>(context, listen: false).loadVideoList();
     // Disclaimer
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      Provider.of<ManagerProvider>(context, listen: false).i
+      Provider.of<ManagerProvider>(context, listen: false).int
         
       
       
