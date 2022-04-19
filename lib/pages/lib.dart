@@ -351,4 +351,5 @@ class _LibState extends State<Lib> {
             SystemUiOverlayStyle(
               statusBarIconBrightness: prefs.enablePlayerBlurBackground ? mediaProvider.textColor == Colors.black
                 ? Brightness.dark : Brightness.light : iconColor,
+              systemNavigationBarIconBrightness: prefs.enablePlayerBlurBackground ? sdkInt >= 30 ?
  
