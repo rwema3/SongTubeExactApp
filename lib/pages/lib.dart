@@ -101,7 +101,7 @@ class _LibState extends State<Lib> {
         return;
       })
     );
-    Provider.of<MediaProvider>(context, listen: false).loadSongList().then((valu
+    Provider.of<MediaProvider>(context, listen: false).loadSongList().then((val
       
     
   
