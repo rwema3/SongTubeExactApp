@@ -89,7 +89,7 @@ class _LibState extends State<Lib> {
                 )
               ),
               context: context,
-              builder: (_) => Wrap(chil
+              builder: (_) => Wrap(child
                 
               
             
