@@ -226,7 +226,6 @@ class _LibState extends State<Lib> {
                   pageProvider.fwController.close();
                   return Future.value(false);
                 } else if (mediaProvider.slidingPanelOpen) {
-                  mediaProvider.slidingPanelOpen = false;
  
   
  
