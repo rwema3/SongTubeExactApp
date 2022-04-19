@@ -139,7 +139,7 @@ class _LibState extends State<Lib> {
         enableDrag: false,
         isScrollControlled: true,
         shape: RoundedRectangleBorder(
-          borderRad 
+          borderRa 
              
         
   
