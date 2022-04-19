@@ -343,5 +343,4 @@ class _LibState extends State<Lib> {
       backdropBlurStrength: prefs.enableBlurUI ? 15 : 0,
       maxHeight: MediaQuery.of(context).size.height,
       onSlide: (double position) {
-        int sdkInt = config.preferences.sdkInt;
  
