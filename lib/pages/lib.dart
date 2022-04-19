@@ -344,4 +344,5 @@ class _LibState extends State<Lib> {
       maxHeight: MediaQuery.of(context).size.height,
       onSlide: (double position) {
         int sdkInt = config.preferences.sdkInt;
+        final iconColor = Theme.of(context).brightness == Brightness.dark
  
