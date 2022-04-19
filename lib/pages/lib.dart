@@ -128,7 +128,7 @@ class _LibState extends State<Lib> {
       bottomSheets.add(DisclaimerSheet());
       config.disclaimerAccepted = true;
     }
-    if (config.showDownloadFixDial    
+    if (config.showDownloadFixDialo    
       
        
     
