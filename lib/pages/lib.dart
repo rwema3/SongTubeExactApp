@@ -283,6 +283,7 @@ class _LibState extends State<Lib> {
     } else if (screenIndex == 1) {
       return SubscriptionsScreen();
     } else if (screenIndex == 2) {
+      return DownloadTab();
   
   
  
