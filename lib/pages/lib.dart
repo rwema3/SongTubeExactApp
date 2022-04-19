@@ -53,8 +53,6 @@ class _LibState extends State<Lib> {
   // Current Screen Index
   int _screenIndex;
 
-  // This Widget ScaffoldKey
-  GlobalKey<ScaffoldState> _internalScaffoldKey;
 
                  
                    
