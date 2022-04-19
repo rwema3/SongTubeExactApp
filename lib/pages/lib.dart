@@ -264,6 +264,7 @@ class _LibState extends State<Lib> {
           ),
         ),
       ),
+      bottomNavigationBar: AppBottomNavigationBar(
  
   
  
