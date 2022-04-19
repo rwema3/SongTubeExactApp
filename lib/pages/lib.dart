@@ -354,4 +354,5 @@ class _LibState extends State<Lib> {
               systemNavigationBarIconBrightness: prefs.enablePlayerBlurBackground ? sdkInt >= 30 ?
                 mediaProvider.textColor == Colors.black ? Brightness.dark : Brightness.light : null : iconColor,
             ),
+          );
  
