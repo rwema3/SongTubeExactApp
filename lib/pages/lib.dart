@@ -357,5 +357,4 @@ class _LibState extends State<Lib> {
           );
         } else if (position < 0.95) {
           SystemChrome.setSystemUIOverlayStyle(
-            SystemUiOverlayStyle(
  
