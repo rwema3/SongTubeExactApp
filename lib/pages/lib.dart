@@ -96,7 +96,7 @@ class _LibState extends State<Lib> {
           }
         }
         String intent = await NativeMethod.handleIntent();
-        if (intent == n 
+        if (intent == nu 
         
         
       
