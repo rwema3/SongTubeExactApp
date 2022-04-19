@@ -275,7 +275,6 @@ class _LibState extends State<Lib> {
       floatingWidgetConfig: _currentFloatingWidetConfig(),
       floatingWidgetController: _currentFloatingWidgetController(),
     );
-  }
  
   
  
