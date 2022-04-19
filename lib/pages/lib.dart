@@ -231,7 +231,6 @@ class _LibState extends State<Lib> {
                   return Future.value(false);
                 } else if (_screenIndex != 0) {
                   setState(() => _screenIndex = 0);
-                  return Future.value(false);
  
   
  
