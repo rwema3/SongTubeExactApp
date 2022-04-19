@@ -217,7 +217,6 @@ class _LibState extends State<Lib> {
       backgroundColor: Theme.of(context).cardColor,
       resizeToAvoidBottomInset: false,
       internalKey: _internalScaffoldKey,
-      body: SafeArea(
  
   
  
