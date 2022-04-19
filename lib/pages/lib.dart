@@ -282,6 +282,7 @@ class _LibState extends State<Lib> {
       return HomeScreen();
     } else if (screenIndex == 1) {
       return SubscriptionsScreen();
+    } else if (screenIndex == 2) {
   
   
  
