@@ -207,7 +207,6 @@ class _LibState extends State<Lib> {
   Widget build(BuildContext context) {
     setSystemUiColor(context);
     return GestureDetector(
-      onTap: () => FocusScope.of(context).requestFocus(new FocusNode()),
 
   
  
