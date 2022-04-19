@@ -348,5 +348,4 @@ class _LibState extends State<Lib> {
           ? Brightness.light : Brightness.dark;
         if (position > 0.95) {
           SystemChrome.setSystemUIOverlayStyle(
-            SystemUiOverlayStyle(
  
