@@ -253,6 +253,7 @@ class _LibState extends State<Lib> {
               Animation<double> secondaryAnimation,
             ) {
               return FadeThroughTransition(
+                fillColor: Theme.of(context).cardColor,
  
   
  
