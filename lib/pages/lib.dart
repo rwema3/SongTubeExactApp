@@ -189,7 +189,6 @@ class _LibState extends State<Lib> {
       Provider.of<VideoPageProvider>(context, listen: false)
         .infoItem = video.toStreamInfoItem();
       Navigator.pop(context);
-    }
 
   
  
