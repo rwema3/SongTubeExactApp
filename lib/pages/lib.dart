@@ -216,7 +216,6 @@ class _LibState extends State<Lib> {
     return FancyScaffold(
       backgroundColor: Theme.of(context).cardColor,
       resizeToAvoidBottomInset: false,
-      internalKey: _internalScaffoldKey,
  
   
  
