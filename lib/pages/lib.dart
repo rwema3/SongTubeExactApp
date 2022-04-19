@@ -99,7 +99,7 @@ class _LibState extends State<Lib> {
         if (intent == null) return;
         _handleIntent(intent);
         return;
-      })
+      }
     
     
       
