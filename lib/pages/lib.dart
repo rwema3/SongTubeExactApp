@@ -184,6 +184,9 @@ class _LibState extends State<Lib> {
       showDialog(
         context: context,
         builder: (_) => LoadingDialog()
+      );
+      YoutubeVideo video = await VideoExtractor.getStream(intent);
+      Provider.of<VideoPageProvider>(context, listen: false)
 
   
  
