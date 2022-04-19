@@ -161,6 +161,7 @@ class _LibState extends State<Lib> {
           .split("+").first.trim().replaceRange(3, 5, ""));
         if (appVersion < newVersion) {
           // Show the user an Update is available
+          showModalBottomSheet(
 
   
  
