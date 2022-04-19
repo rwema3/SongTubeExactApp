@@ -296,7 +296,6 @@ class _LibState extends State<Lib> {
   FloatingWidgetTwins _currentFloatingTwins() {
     VideoPageProvider pageProvider = Provider.of<VideoPageProvider>(context);
     if (pageProvider.infoItem != null) {
-      return _youtubePlayerTwins();
   
  
  
