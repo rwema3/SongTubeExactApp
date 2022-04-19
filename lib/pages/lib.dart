@@ -236,7 +236,6 @@ class _LibState extends State<Lib> {
                   manager.youtubeSearch = null;
                   manager.setState();
                   return Future.value(false);
-                } else if (_screenIndex == 0 && manager.currentHomeTab != HomeScreenTab.Trending) {
  
   
  
