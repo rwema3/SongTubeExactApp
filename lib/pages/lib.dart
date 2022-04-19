@@ -218,7 +218,6 @@ class _LibState extends State<Lib> {
       resizeToAvoidBottomInset: false,
       internalKey: _internalScaffoldKey,
       body: SafeArea(
-        child: Consumer3<MediaProvider, ManagerProvider, VideoPageProvider>(
  
   
  
