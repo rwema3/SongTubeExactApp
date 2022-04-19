@@ -141,8 +141,7 @@ class _LibState extends State<Lib> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(15),
-            topRight: Radius.circular(15)
-          )        ),
+                   ),
 
   
  
