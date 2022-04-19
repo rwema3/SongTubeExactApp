@@ -192,9 +192,6 @@ class _LibState extends State<Lib> {
     }
     if (playlistId != null) {
       showDialog(
-        context: context,
-        builder: (_) => LoadingDialog()
-      );
 
   
  
