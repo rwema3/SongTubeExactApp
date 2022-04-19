@@ -160,6 +160,7 @@ class _LibState extends State<Lib> {
         double newVersion = double.parse(details.version
           .split("+").first.trim().replaceRange(3, 5, ""));
         if (appVersion < newVersion) {
+          // Show the user an Update is available
 
   
  
