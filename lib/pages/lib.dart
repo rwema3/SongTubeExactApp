@@ -130,7 +130,7 @@ class _LibState extends State<Lib> {
     }
     if (config.showDownloadFixDialog && config.preferences.sdkInt >= 30) {
       bottomSheets.add(DownloadFixSheet());
-      config.showDownloadFixDialog = 
+      config.showDownloadFixDialog = f
     
        
      
