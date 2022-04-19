@@ -339,5 +339,4 @@ class _LibState extends State<Lib> {
     MediaProvider mediaProvider = Provider.of<MediaProvider>(context);
     PreferencesProvider prefs = Provider.of<PreferencesProvider>(context);
     ConfigurationProvider config = Provider.of<ConfigurationProvider>(context, listen: false);
-    return FloatingWidgetConfig(
  
