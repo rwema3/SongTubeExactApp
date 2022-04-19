@@ -1,4 +1,4 @@
-// Flutter
+// Flutter app& Flutter Main 
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
@@ -30,7 +30,7 @@ import 'package:newpipeextractor_dart/utils/navigationService.dart';
 // UI
 import 'package:songtube/ui/internal/themeValues.dart';
 
-// Debug
+// Debug for debugging
 import 'package:flutter/scheduler.dart' show timeDilation;
 
 // const dsn = '';
