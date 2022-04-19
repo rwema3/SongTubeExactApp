@@ -80,6 +80,7 @@ class _LibState extends State<Lib> {
         if (downloads.downloadingList.isNotEmpty ||
           downloads.completedList.isNotEmpty
         ) {
+          if (prefs.showJoinTelegramD
                  
                    
                   
