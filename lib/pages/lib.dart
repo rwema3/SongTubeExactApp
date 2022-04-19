@@ -43,9 +43,6 @@ import 'package:songtube/ui/sheets/disclaimer.dart';
 import 'package:songtube/ui/sheets/downloadFix.dart';
 import 'package:songtube/ui/internal/lifecycleEvents.dart';
 
-class Lib extends StatefulWidget {
-  @override
-
 
                  
                    
