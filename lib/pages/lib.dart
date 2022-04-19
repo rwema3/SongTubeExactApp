@@ -73,7 +73,10 @@ class _LibState extends State<Lib> {
       }
     });
     WidgetsBinding.instance.addObserver(
-      new L
+      new LifecycleEventHandler(resumeCallBack: () async {
+        setState(() {});
+        PreferencesProvider prefs = Provider.of<PreferencesProvider>(context, listen: false);
+        Dow
                  
                    
                   
