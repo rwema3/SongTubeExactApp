@@ -372,4 +372,5 @@ class _LibState extends State<Lib> {
     VideoPageProvider pageProvider = Provider.of<VideoPageProvider>(context);
     if (pageProvider.infoItem != null) {
       return pageProvider.fwController;
+    } else {
  
