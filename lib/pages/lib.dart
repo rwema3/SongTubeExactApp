@@ -108,7 +108,7 @@ class _LibState extends State<Lib> {
     // Disclaimer
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       Provider.of<ManagerProvider>(context, listen: false).internalScaffoldKey =
-        this._internalScaffoldKe
+        this._internalScaffoldKey
       
       
     
