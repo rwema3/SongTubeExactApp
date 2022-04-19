@@ -173,6 +173,7 @@ class _LibState extends State<Lib> {
             builder: (context) => AppUpdateSheet(details)
           );
         }
+      });
 
   
  
