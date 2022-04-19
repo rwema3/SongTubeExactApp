@@ -247,7 +247,6 @@ class _LibState extends State<Lib> {
             );
           },
           child: PageTransitionSwitcher(
-            transitionBuilder: (
  
   
  
