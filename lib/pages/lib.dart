@@ -76,7 +76,9 @@ class _LibState extends State<Lib> {
       new LifecycleEventHandler(resumeCallBack: () async {
         setState(() {});
         PreferencesProvider prefs = Provider.of<PreferencesProvider>(context, listen: false);
-        Dow
+        DownloadsProvider downloads = Provider.of<DownloadsProvider>(context, listen: false);
+        if (downloads.downloadingList.isNotEmpty ||
+          d
                  
                    
                   
