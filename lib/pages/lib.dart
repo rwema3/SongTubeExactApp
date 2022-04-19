@@ -162,7 +162,6 @@ class _LibState extends State<Lib> {
         if (appVersion < newVersion) {
           // Show the user an Update is available
           showModalBottomSheet(
-            isScrollControlled: true,
 
   
  
