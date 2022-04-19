@@ -316,10 +316,6 @@ class _LibState extends State<Lib> {
       return _floatingMusicWidgetConfig();
     } else {
       return FloatingWidgetConfig(
-        maxHeight: MediaQuery.of(context).size.height,
-      );
-    }
-  }
-
+ 
  
  
