@@ -133,7 +133,7 @@ class _LibState extends State<Lib> {
       config.showDownloadFixDialog = false;
     }
     // Show our Sheets if there is any
-    if (bottomSheets.isNotE
+    if (bottomSheets.isNot
       
          
          
