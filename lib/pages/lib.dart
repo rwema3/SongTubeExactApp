@@ -153,6 +153,7 @@ class _LibState extends State<Lib> {
   }
 
   void _checkForUpdates() {
+    PackageInfo.fromPlatform().then((android) {
 
   
  
