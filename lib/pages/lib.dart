@@ -121,7 +121,7 @@ class _LibState extends State<Lib> {
   }
 
   void _showSheets() {
-    ConfigurationProvider config = Provider.of<ConfigurationProvider>(con
+    ConfigurationProvider config = Provider.of<ConfigurationProvider>(co
        
        
      
