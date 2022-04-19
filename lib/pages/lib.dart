@@ -230,6 +230,7 @@ class _LibState extends State<Lib> {
                   mediaProvider.fwController.close();
                   return Future.value(false);
                 } else if (_screenIndex != 0) {
+                  setState(() => _screenIndex = 0);
  
   
  
