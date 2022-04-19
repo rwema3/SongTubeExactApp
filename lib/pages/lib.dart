@@ -110,7 +110,7 @@ class _LibState extends State<Lib> {
       Provider.of<ManagerProvider>(context, listen: false).internalScaffoldKey =
         this._internalScaffoldKey;
       _showSheets();
-      _checkFo
+      _checkF
     
      
       
