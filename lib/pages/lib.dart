@@ -324,5 +324,9 @@ class _LibState extends State<Lib> {
   FloatingWidgetTwins _musicPlayerTwins() {
     return FloatingWidgetTwins(
       expanded: ExpandedPlayer(),
+      collapsed: CollapsedPanel()
+    );
+  }
+
  
  
