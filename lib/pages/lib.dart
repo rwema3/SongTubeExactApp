@@ -102,7 +102,7 @@ class _LibState extends State<Lib> {
       })
     );
     Provider.of<MediaProvider>(context, listen: false).loadSongList().then((value) {
-      Provider.of<Configurati
+      Provider.of<Configurat
     
   
 
