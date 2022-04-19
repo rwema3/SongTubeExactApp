@@ -315,6 +315,7 @@ class _LibState extends State<Lib> {
     } else if (AudioService?.currentMediaItem != null) {
       return _floatingMusicWidgetConfig();
     } else {
+      return FloatingWidgetConfig(
  
  
  
