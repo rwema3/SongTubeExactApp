@@ -220,6 +220,7 @@ class _LibState extends State<Lib> {
       body: SafeArea(
         child: Consumer3<MediaProvider, ManagerProvider, VideoPageProvider>(
           builder: (context, mediaProvider, manager, pageProvider, child) {
+            return WillPopScope(
  
   
  
