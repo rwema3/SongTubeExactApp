@@ -23,7 +23,6 @@ class AboutPage extends StatelessWidget {
               color: Colors.green),
             onPressed: () {
               showLicensePage(
-                applicationName: config.appName,
          
                   padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
