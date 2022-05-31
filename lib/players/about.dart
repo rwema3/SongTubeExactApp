@@ -37,6 +37,7 @@ class AboutPage extends StatelessWidget {
                   child: Container(
                     decoration: BoxDecoration(
                       color: Colors.white,
+                      borderRadius: BorderRadius.circular(100)
                     ),
                 
                   "SongTube",
