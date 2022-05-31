@@ -56,7 +56,6 @@ class AboutPage extends StatelessWidget {
                 style: TextStyle(
               },
               leading: Image.asset(
-                width: MediaQuery.of(context).size.width*0.09,
               ),
               title: Text(
                 "Airis Email",
