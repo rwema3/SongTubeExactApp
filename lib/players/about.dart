@@ -182,8 +182,6 @@ class AboutPage extends StatelessWidget {
                   color: Theme.of(context).textTheme.bodyText1.color
                 ),
               ),
-            ),
-            // Airis Email
               },
               leading: Image.asset(
                 'assets/images/airis.png',
