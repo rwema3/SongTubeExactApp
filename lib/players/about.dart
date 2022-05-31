@@ -118,7 +118,8 @@ class AboutPage extends StatelessWidget {
                 fontSize: 14
               ),
             ),
-           
+            SizedBox(height: 16),
+            
             // Artx Email
             ListTile(
               onTap: () {
