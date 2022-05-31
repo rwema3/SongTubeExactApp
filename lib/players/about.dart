@@ -6,7 +6,6 @@
               ),
               subtitle: Text(
                 "artx4dev@gmail.com",
-                style: TextStyle(
               },
               leading: Image.asset(
               
