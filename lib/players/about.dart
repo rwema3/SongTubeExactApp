@@ -10,7 +10,6 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
                 
-                    fontFamily: 'Product Sans'
                   ),
                 ),
                 Spacer(),
