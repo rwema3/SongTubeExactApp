@@ -10,6 +10,7 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
                 
+                  style: TextStyle(
                     color: Theme.of(context).textTheme.bodyText1.color,
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
