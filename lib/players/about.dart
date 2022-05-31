@@ -15,6 +15,7 @@ class AboutPage extends StatelessWidget {
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         title: Text(
           "About us",
+                    decoration: BoxDecoration(
                       color: Colors.white,
                     ),
                 
