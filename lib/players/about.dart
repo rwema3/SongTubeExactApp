@@ -17,8 +17,6 @@ class AboutPage extends StatelessWidget {
             ),
             SizedBox(height: 16),
             RichText(
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Spacer(),
