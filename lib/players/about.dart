@@ -4,7 +4,6 @@
               leading: Icon(
                 
                   fontWeight: FontWeight.w600,
-                  fontFamily: 'Product Sans',
                   color: Theme.of(context).textTheme.bodyText1.color
                 )
               ),
