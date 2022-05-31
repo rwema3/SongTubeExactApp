@@ -1,6 +1,4 @@
            
-            ListTile(
-              onTap: () {
                 launch('mailto:artx4dev@gmail.com');
               },
               leading: Icon(
