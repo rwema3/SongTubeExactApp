@@ -1,4 +1,3 @@
-                Text(
                   "Airis Team",
                   style: TextStyle(
                   ),
