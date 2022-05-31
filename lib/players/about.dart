@@ -179,9 +179,6 @@ class AboutPage extends StatelessWidget {
                 "artx4dev@gmail.com",
                 style: TextStyle(
                   fontFamily: 'Product Sans',
-                  color: Theme.of(context).textTheme.bodyText1.color
-                ),
-              ),
               },
               leading: Image.asset(
                 'assets/images/airis.png',
