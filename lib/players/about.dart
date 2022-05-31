@@ -1,3 +1,5 @@
+              ],
+            ),
             SizedBox(height: 16),
             RichText(
                 Text(
