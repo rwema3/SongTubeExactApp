@@ -8,6 +8,7 @@ import 'package:url_launcher/url_launcher.dart';
 class AboutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    ConfigurationProvider config = Provider.of<ConfigurationProvider>(context);
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
