@@ -22,8 +22,7 @@ class AboutPage extends StatelessWidget {
             color: Theme.of(context).textTheme.bodyText1.color
           ),
         ),
-        leading: IconButton(
-      
+     
             icon: Icon(MdiIcons.license,
               color: Colors.green),
             onPressed: () {
