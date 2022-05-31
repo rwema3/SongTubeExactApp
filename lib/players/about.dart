@@ -16,6 +16,7 @@ class AboutPage extends StatelessWidget {
                   style: TextStyle(
                   ),
                   padding: EdgeInsets.all(8),
+                  child: Container(
                       width: MediaQuery.of(context).size.width*0.15,
                     ),
                   ),
