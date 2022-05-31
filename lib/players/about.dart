@@ -51,6 +51,9 @@ class AboutPage extends StatelessWidget {
                 Text(
                   "Airis Team",
                   style: TextStyle(
+                  ),
+                ),
+                SizedBox(width: 32),
                 Container(
                   decoration: BoxDecoration(
                     color: Color.fromARGB(255, 0, 10, 28),
