@@ -24,6 +24,7 @@ class AboutPage extends StatelessWidget {
             onPressed: () {
               showLicensePage(
                 applicationName: config.appName,
+                applicationIcon: Image.asset('assets/images/ic_launcher.png', height: 50, width: 50),
          
                   padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
