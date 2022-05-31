@@ -49,7 +49,6 @@ class AboutPage extends StatelessWidget {
           children: [
             SizedBox(height: 12),
             Row(
-              mainAxisAlignment: MainAxisAlignment.center,
                  
                   padding: EdgeInsets.all(8),
                   child: Container(
