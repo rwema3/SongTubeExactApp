@@ -1,2 +1,1 @@
            
-                  fontWeight: FontWeight.w600,
