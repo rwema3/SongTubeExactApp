@@ -6,6 +6,7 @@
               ),
               subtitle: Text(
                 "artx4dev@gmail.com",
+              },
               
                 style: TextStyle(
                   fontSize: 18,
