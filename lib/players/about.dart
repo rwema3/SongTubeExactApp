@@ -15,7 +15,6 @@ class AboutPage extends StatelessWidget {
                   "Airis Team",
                   style: TextStyle(
                   ),
-                  padding: EdgeInsets.all(8),
                   ),
                 ),
                 Spacer(),
