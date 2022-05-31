@@ -18,6 +18,7 @@ class AboutPage extends StatelessWidget {
           style: TextStyle(
             fontFamily: 'Product Sans',
             fontWeight: FontWeight.w600,
+            fontSize: 24,
     
             icon: Icon(MdiIcons.license,
               color: Colors.green),
