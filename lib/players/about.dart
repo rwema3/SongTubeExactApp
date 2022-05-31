@@ -114,6 +114,7 @@ class AboutPage extends StatelessWidget {
               "We are a Development Team dedicated to professional software "
               "solutions.\n\nContact us to know more about the best Web "
               "and Mobile services we can offer you.",
+              style: TextStyle(
            
             // Artx Email
             ListTile(
