@@ -57,6 +57,7 @@ class AboutPage extends StatelessWidget {
               },
               leading: Image.asset(
               
+                textAlign: TextAlign.start,
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w600,
