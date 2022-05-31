@@ -17,6 +17,7 @@ class AboutPage extends StatelessWidget {
             ),
             SizedBox(height: 16),
             RichText(
+                    text: "It's an Open Source app for media downloading "
                       "or streaming purposes\n\nMeant to be a beautiful, "
                       "fast and functional alternative to other Youtube "
                       "Clients, "
