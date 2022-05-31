@@ -66,7 +66,6 @@ class AboutPage extends StatelessWidget {
                     ),
                     padding: EdgeInsets.all(12),
                     child: Image.asset(
-                      'assets/images/logo.png',
                 
                   "SongTube",
                   style: TextStyle(
