@@ -65,7 +65,6 @@ class AboutPage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(100)
                     ),
                     padding: EdgeInsets.all(12),
-                    child: Image.asset(
                 
                   "SongTube",
                   style: TextStyle(
