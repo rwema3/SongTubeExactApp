@@ -56,8 +56,7 @@ class AboutPage extends StatelessWidget {
                 Container(
                   decoration: BoxDecoration(
                     color: Colors.grey.withOpacity(0.6),
-                    borderRadius: BorderRadius.circular(100)
-                  ),
+                    
                   padding: EdgeInsets.all(8),
                   child: Container(
                     decoration: BoxDecoration(
