@@ -57,7 +57,6 @@ class AboutPage extends StatelessWidget {
               },
               leading: Image.asset(
               
-                "Airis Email",
                 textAlign: TextAlign.start,
                 style: TextStyle(
                   fontSize: 18,
