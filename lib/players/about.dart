@@ -16,9 +16,6 @@ class AboutPage extends StatelessWidget {
                   style: TextStyle(
                   ),
                   padding: EdgeInsets.all(8),
-                  child: Container(
-                    child: Image.asset(
-                      'assets/images/airis.png',
                       width: MediaQuery.of(context).size.width*0.15,
                     ),
                   ),
