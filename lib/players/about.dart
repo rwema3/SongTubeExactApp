@@ -112,7 +112,6 @@ class AboutPage extends StatelessWidget {
             SizedBox(height: 16),
             Text(
               "We are a Development Team dedicated to professional software "
-              "solutions.\n\nContact us to know more about the best Web "
            
             // Artx Email
             ListTile(
