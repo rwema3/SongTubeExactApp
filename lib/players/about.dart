@@ -4,6 +4,7 @@
               leading: Icon(
                 
                   fontWeight: FontWeight.w600,
+                  color: Theme.of(context).textTheme.bodyText1.color
                 )
               ),
               subtitle: Text(
