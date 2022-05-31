@@ -64,7 +64,6 @@ class AboutPage extends StatelessWidget {
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(100)
                     ),
-                    padding: EdgeInsets.all(12),
                 
                   "SongTube",
                   style: TextStyle(
