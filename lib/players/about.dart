@@ -186,7 +186,6 @@ class AboutPage extends StatelessWidget {
             // Airis Email
             ListTile(
               onTap: () {
-                launch('mailto:airisdevgroup@gmail.com');
               },
               leading: Image.asset(
                 'assets/images/airis.png',
@@ -198,4 +197,3 @@ class AboutPage extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w600,
-                  fontFamily: 'Product Sans',
