@@ -17,6 +17,7 @@ class AboutPage extends StatelessWidget {
             ),
             SizedBox(height: 16),
             RichText(
+                Spacer(),
                 Text(
                   "Airis Team",
                   style: TextStyle(
