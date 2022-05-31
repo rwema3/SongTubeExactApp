@@ -3,8 +3,6 @@
               },
               leading: Icon(
                 
-                  fontWeight: FontWeight.w600,
-                )
               ),
               subtitle: Text(
                 "artx4dev@gmail.com",
