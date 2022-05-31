@@ -184,6 +184,7 @@ class AboutPage extends StatelessWidget {
               ),
             ),
             // Airis Email
+            ListTile(
               },
               leading: Image.asset(
                 'assets/images/airis.png',
