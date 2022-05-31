@@ -20,6 +20,8 @@ class AboutPage extends StatelessWidget {
             fontWeight: FontWeight.w600,
     
             icon: Icon(MdiIcons.license,
+              color: Colors.green),
+            onPressed: () {
          
                   padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
