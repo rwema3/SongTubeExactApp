@@ -46,6 +46,7 @@ class AboutPage extends StatelessWidget {
               },
               leading: Icon(
                 
+                style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w600,
                   fontFamily: 'Product Sans',
