@@ -23,9 +23,7 @@ class AboutPage extends StatelessWidget {
           ),
         ),
         leading: IconButton(
-          icon: Icon(Icons.arrow_back_ios_new_rounded, color: Theme.of(context).iconTheme.color),
-          onPressed: () {
-        
+      
             icon: Icon(MdiIcons.license,
               color: Colors.green),
             onPressed: () {
