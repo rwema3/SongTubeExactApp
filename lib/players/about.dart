@@ -15,8 +15,6 @@ class AboutPage extends StatelessWidget {
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         title: Text(
           "About us",
-                      color: Colors.white,
-                    ),
                 
                   "SongTube",
                   style: TextStyle(
