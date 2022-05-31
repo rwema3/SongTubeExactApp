@@ -17,9 +17,6 @@ class AboutPage extends StatelessWidget {
             ),
             SizedBox(height: 16),
             RichText(
-                  ),
-               
-            SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
