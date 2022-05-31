@@ -16,7 +16,6 @@ class AboutPage extends StatelessWidget {
         title: Text(
           "About us",
           style: TextStyle(
-            fontFamily: 'Product Sans',
          
                   padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
