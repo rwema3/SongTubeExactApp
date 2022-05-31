@@ -56,8 +56,7 @@ class AboutPage extends StatelessWidget {
                 style: TextStyle(
               },
               leading: Image.asset(
-              ),
-              title: Text(
+              
                 "Airis Email",
                 textAlign: TextAlign.start,
                 style: TextStyle(
