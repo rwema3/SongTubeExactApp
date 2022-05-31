@@ -65,7 +65,6 @@ class AboutPage extends StatelessWidget {
                   ),
                   TextSpan(
                     text: "it'll be forever free with no ads.",
-                    style: TextStyle(
                
             SizedBox(height: 20),
             Row(
