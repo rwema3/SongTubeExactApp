@@ -206,3 +206,10 @@ class AboutPage extends StatelessWidget {
                 "airisdevgroup@gmail.com",
                 style: TextStyle(
                   fontFamily: 'Product Sans',
+            
+          ],
+        ),
+      ),
+    );
+  }
+}
