@@ -72,7 +72,7 @@ class AboutPage extends StatelessWidget {
                   ),
                 ),
                 SizedBox(width: 32),
-                Text(
+                
                   "SongTube",
                   style: TextStyle(
                     color: Theme.of(context).textTheme.bodyText1.color,
