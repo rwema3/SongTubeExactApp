@@ -51,8 +51,7 @@ class AboutPage extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                   
+                 
                   padding: EdgeInsets.all(8),
                   child: Container(
                     decoration: BoxDecoration(
