@@ -64,6 +64,7 @@ class AboutPage extends StatelessWidget {
                       "Clients, "
                   ),
                   TextSpan(
+                    text: "it'll be forever free with no ads.",
                
             SizedBox(height: 20),
             Row(
