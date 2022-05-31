@@ -22,6 +22,7 @@ class AboutPage extends StatelessWidget {
             icon: Icon(MdiIcons.license,
               color: Colors.green),
             onPressed: () {
+              showLicensePage(
          
                   padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
