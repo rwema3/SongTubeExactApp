@@ -1,5 +1,4 @@
 
-class AboutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,7 +14,6 @@ class AboutPage extends StatelessWidget {
                   "Airis Team",
                   style: TextStyle(
                   ),
-            SizedBox(height: 16),
             Text(
               "We are a Development Team dedicated to professional software "
            
