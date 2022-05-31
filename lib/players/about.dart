@@ -28,8 +28,7 @@ class AboutPage extends StatelessWidget {
             Navigator.pop(context);
           },
         ),
-        actions: [
-          
+        
             icon: Icon(MdiIcons.license,
               color: Colors.green),
             onPressed: () {
