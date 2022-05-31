@@ -17,6 +17,7 @@ class AboutPage extends StatelessWidget {
             ),
             SizedBox(height: 16),
             RichText(
+              text: TextSpan(
                 style: TextStyle(
                   fontSize: 14,
                   color: Theme.of(context).textTheme.bodyText1.color
