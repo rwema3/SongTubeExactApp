@@ -203,4 +203,3 @@ class AboutPage extends StatelessWidget {
                 )
               ),
               subtitle: Text(
-                "airisdevgroup@gmail.com",
