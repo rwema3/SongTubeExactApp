@@ -9,6 +9,7 @@ class AboutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+          "About us",
                 
                   "SongTube",
                   style: TextStyle(
