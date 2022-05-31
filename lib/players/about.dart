@@ -7,6 +7,7 @@
               subtitle: Text(
                 "artx4dev@gmail.com",
               },
+              leading: Image.asset(
               
                 style: TextStyle(
                   fontSize: 18,
