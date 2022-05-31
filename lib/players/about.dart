@@ -47,7 +47,6 @@ class AboutPage extends StatelessWidget {
         padding: EdgeInsets.only(left: 40, right: 40),
         child: ListView(
           children: [
-            SizedBox(height: 12),
                
                   padding: EdgeInsets.all(8),
                   child: Container(
