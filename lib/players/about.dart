@@ -1,4 +1,3 @@
-            SizedBox(height: 16),
             RichText(
                 Text(
                   "Airis Team",
