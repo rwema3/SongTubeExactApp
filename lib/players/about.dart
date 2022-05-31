@@ -53,7 +53,8 @@ class AboutPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Spacer(),
-                   
+                Container(
+                    
                   padding: EdgeInsets.all(8),
                   child: Container(
                     decoration: BoxDecoration(
