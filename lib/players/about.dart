@@ -63,6 +63,7 @@ class AboutPage extends StatelessWidget {
                       "fast and functional alternative to other Youtube "
                       "Clients, "
                   ),
+                  TextSpan(
                
             SizedBox(height: 20),
             Row(
