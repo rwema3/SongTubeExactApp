@@ -23,6 +23,7 @@ class AboutPage extends StatelessWidget {
                   ),
                   padding: EdgeInsets.all(8),
                   child: Container(
+                    decoration: BoxDecoration(
                       color: Color.fromARGB(255, 0, 10, 28),
                       borderRadius: BorderRadius.circular(100)
                     ),
