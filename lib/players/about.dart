@@ -17,6 +17,7 @@ class AboutPage extends StatelessWidget {
             ),
             SizedBox(height: 16),
             RichText(
+                      "Clients, "
                   ),
                
             SizedBox(height: 20),
