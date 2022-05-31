@@ -46,6 +46,7 @@ class AboutPage extends StatelessWidget {
               },
               leading: Icon(
                 
+                color: Colors.red,
                 size: 28,
               ),
               title: Text(
