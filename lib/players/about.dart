@@ -54,7 +54,6 @@ class AboutPage extends StatelessWidget {
               children: [
                 Spacer(),
                 Container(
-                  decoration: BoxDecoration(
                     
                   padding: EdgeInsets.all(8),
                   child: Container(
