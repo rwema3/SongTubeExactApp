@@ -29,7 +29,7 @@ class AboutPage extends StatelessWidget {
           },
         ),
         actions: [
-          IconButton(
+          
             icon: Icon(MdiIcons.license,
               color: Colors.green),
             onPressed: () {
