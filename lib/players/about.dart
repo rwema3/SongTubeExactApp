@@ -51,6 +51,7 @@ class AboutPage extends StatelessWidget {
                 Text(
                   "Airis Team",
                   style: TextStyle(
+                    fontFamily: 'Product Sans'
                   ),
                 ),
                 SizedBox(width: 32),
