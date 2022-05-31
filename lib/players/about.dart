@@ -1,3 +1,4 @@
+                  style: TextStyle(
                   ),
             Text(
               "We are a Development Team dedicated to professional software "
