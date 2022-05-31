@@ -19,6 +19,7 @@ class AboutPage extends StatelessWidget {
             fontFamily: 'Product Sans',
             fontWeight: FontWeight.w600,
     
+            icon: Icon(MdiIcons.license,
          
                   padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
