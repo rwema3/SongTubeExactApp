@@ -55,7 +55,6 @@ class AboutPage extends StatelessWidget {
                 Spacer(),
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.grey.withOpacity(0.6),
                     
                   padding: EdgeInsets.all(8),
                   child: Container(
