@@ -34,6 +34,7 @@ class AboutPage extends StatelessWidget {
       ),
          
                   padding: EdgeInsets.all(8),
+                  child: Container(
                     decoration: BoxDecoration(
                       color: Colors.white,
                     ),
