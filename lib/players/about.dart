@@ -20,6 +20,7 @@ class AboutPage extends StatelessWidget {
                 Text(
                   "Airis Team",
                   style: TextStyle(
+                    borderRadius: BorderRadius.circular(100)
                   ),
                   padding: EdgeInsets.all(8),
                   child: Container(
