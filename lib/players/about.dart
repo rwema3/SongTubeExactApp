@@ -46,6 +46,8 @@ class AboutPage extends StatelessWidget {
               },
               leading: Icon(
                 
+                size: 28,
+              ),
               title: Text(
                 "Email",
                 textAlign: TextAlign.start,
