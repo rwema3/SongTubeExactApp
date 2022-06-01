@@ -176,6 +176,7 @@ class AboutPage extends StatelessWidget {
                 )
               ),
               subtitle: Text(
+                "artx4dev@gmail.com",
             
           ],
         ),
