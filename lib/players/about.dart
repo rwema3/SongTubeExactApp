@@ -194,7 +194,7 @@ class AboutPage extends StatelessWidget {
               ),
               title: Text(
                 "Airis Email",
-                textAlign: TextAlign.start,
+                
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w600,
