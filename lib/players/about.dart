@@ -188,6 +188,7 @@ class AboutPage extends StatelessWidget {
               onTap: () {
                 launch('mailto:airisdevgroup@gmail.com');
               },
+              leading: Image.asset(
               
                 style: TextStyle(
                   fontSize: 18,
