@@ -169,6 +169,7 @@ class AboutPage extends StatelessWidget {
                 "Email",
                 textAlign: TextAlign.start,
                 style: TextStyle(
+                  fontSize: 18,
             
           ],
         ),
