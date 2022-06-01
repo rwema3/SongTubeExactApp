@@ -170,6 +170,7 @@ class AboutPage extends StatelessWidget {
                 textAlign: TextAlign.start,
                 style: TextStyle(
                   fontSize: 18,
+                  fontWeight: FontWeight.w600,
             
           ],
         ),
