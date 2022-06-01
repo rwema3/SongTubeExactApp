@@ -190,6 +190,8 @@ class AboutPage extends StatelessWidget {
               },
               leading: Image.asset(
                 'assets/images/airis.png',
+                width: MediaQuery.of(context).size.width*0.09,
+              ),
               
                 style: TextStyle(
                   fontSize: 18,
