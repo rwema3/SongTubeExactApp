@@ -188,7 +188,8 @@ class AboutPage extends StatelessWidget {
               onTap: () {
               
                 style: TextStyle(
-            S
+                  fontSize: 18,
+            
           ],
         ),
       ),
