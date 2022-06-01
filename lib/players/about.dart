@@ -174,6 +174,7 @@ class AboutPage extends StatelessWidget {
                   fontFamily: 'Product Sans',
                   color: Theme.of(context).textTheme.bodyText1.color
                 )
+              ),
             
           ],
         ),
