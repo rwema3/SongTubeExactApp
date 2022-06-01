@@ -185,6 +185,8 @@ class AboutPage extends StatelessWidget {
             ),
             // Airis Email
             ListTile(
+              onTap: () {
+              
              
           ],
         ),
