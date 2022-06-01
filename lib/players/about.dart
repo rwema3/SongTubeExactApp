@@ -201,6 +201,7 @@ class AboutPage extends StatelessWidget {
                   color: Theme.of(context).textTheme.bodyText1.color
                 ),
               ),
+            ),
             
           ],
         ),
