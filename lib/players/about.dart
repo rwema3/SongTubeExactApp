@@ -166,6 +166,7 @@ class AboutPage extends StatelessWidget {
                 size: 28,
               ),
               title: Text(
+                "Email",
             
           ],
         ),
