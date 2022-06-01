@@ -171,6 +171,7 @@ class AboutPage extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w600,
+                  fontFamily: 'Product Sans',
             
           ],
         ),
