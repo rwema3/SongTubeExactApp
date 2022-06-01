@@ -148,8 +148,6 @@ class AboutPage extends StatelessWidget {
             Text(
               "We are a Development Team dedicated to professional software "
               "solutions.\n\nContact us to know more about the best Web "
-              "and Mobile services we can offer you.",
-              style: TextStyle(
                 fontSize: 14
               ),
             ),
@@ -160,57 +158,7 @@ class AboutPage extends StatelessWidget {
               onTap: () {
                 launch('mailto:artx4dev@gmail.com');
               },
-              leading: Icon(
-                EvaIcons.emailOutline,
-                color: Colors.red,
-                size: 28,
-              ),
-              title: Text(
-                "Email",
-                textAlign: TextAlign.start,
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
-                  fontFamily: 'Product Sans',
-                  color: Theme.of(context).textTheme.bodyText1.color
-                )
-              ),
-              subtitle: Text(
-                "artx4dev@gmail.com",
-                style: TextStyle(
-                  fontFamily: 'Product Sans',
-                  color: Theme.of(context).textTheme.bodyText1.color
-                ),
-              ),
-            ),
-            // Airis Email
-            ListTile(
-              onTap: () {
-                launch('mailto:airisdevgroup@gmail.com');
-              },
-              leading: Image.asset(
-                'assets/images/airis.png',
-                width: MediaQuery.of(context).size.width*0.09,
-              ),
-              title: Text(
-                "Airis Email",
-                
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
-                  fontFamily: 'Product Sans',
-                  color: Theme.of(context).textTheme.bodyText1.color
-                )
-              ),
-              subtitle: Text(
-                "airisdevgroup@gmail.com",
-                style: TextStyle(
-                  fontFamily: 'Product Sans',
-                  color: Theme.of(context).textTheme.bodyText1.color
-                ),
-              ),
-            ),
-            SizedBox(height: 16),
+            
           ],
         ),
       ),
