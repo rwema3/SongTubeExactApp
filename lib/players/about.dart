@@ -187,7 +187,8 @@ class AboutPage extends StatelessWidget {
             ListTile(
               onTap: () {
               
-             
+                style: TextStyle(
+            S
           ],
         ),
       ),
