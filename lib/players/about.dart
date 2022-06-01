@@ -189,6 +189,7 @@ class AboutPage extends StatelessWidget {
                 launch('mailto:airisdevgroup@gmail.com');
               },
               leading: Image.asset(
+                'assets/images/airis.png',
               
                 style: TextStyle(
                   fontSize: 18,
