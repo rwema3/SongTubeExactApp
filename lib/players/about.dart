@@ -202,7 +202,7 @@ class AboutPage extends StatelessWidget {
                 ),
               ),
             ),
-            
+            SizedBox(height: 16),
           ],
         ),
       ),
