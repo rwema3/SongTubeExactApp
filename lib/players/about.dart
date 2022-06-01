@@ -163,6 +163,9 @@ class AboutPage extends StatelessWidget {
               leading: Icon(
                 EvaIcons.emailOutline,
                 color: Colors.red,
+                size: 28,
+              ),
+              title: Text(
             
           ],
         ),
