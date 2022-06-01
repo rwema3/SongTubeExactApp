@@ -161,6 +161,7 @@ class AboutPage extends StatelessWidget {
                 launch('mailto:artx4dev@gmail.com');
               },
               leading: Icon(
+                EvaIcons.emailOutline,
             
           ],
         ),
