@@ -196,6 +196,8 @@ class AboutPage extends StatelessWidget {
               ),
               subtitle: Text(
                 "airisdevgroup@gmail.com",
+                style: TextStyle(
+                  fontFamily: 'Product Sans',
             
           ],
         ),
