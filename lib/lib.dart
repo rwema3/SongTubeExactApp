@@ -183,16 +183,7 @@ class _LibState extends State<Lib> {
     if (streamId != null) {
       showDialog(
         context: context,
-      YoutubeVideo video = await VideoExtractor.getStream(intent);
-      Provider.of<VideoPageProvider>(context, listen: false)
-        .infoItem = video.toStreamInfoItem();
-      Navigator.pop(context);
-    }
-    if (playlistId != null) {
-      showDialog(
-        context: context,
         builder: (_) => LoadingDialog()
-      );    builder: (_) => LoadingDialog()
       );
     
       YoutubePlaylist playlist = await PlaylistExtractor
