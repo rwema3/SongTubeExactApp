@@ -179,6 +179,21 @@ class _LibState extends State<Lib> {
 
   vo
   }
+  
+  FloatingWidgetConfig _currentFloatingWidetConfig() {
+    VideoPageProvider pageProvider = Provider.of<VideoPageProvider>(context);
+    if (pageProvider.infoItem != null) {
+      return FloatingWidgetConfig(
+        maxHeight: MediaQuery.of(context).size.height,
+      );
+    } else if (AudioService?.currentMediaItem != null) {
+      return _floatingMusicWidgetConfig();
+    } else {
+      return FloatingWidgetConfig(
+        maxHeight: MediaQuery.of(context).size.height,
+      );
+    }
+  }
 
   FloatingWidgetTwins _musicPlayerTwins() {
     return FloatingWidgetTwins(
