@@ -178,7 +178,24 @@ class _LibState extends State<Lib> {
   }
 
   vo
-  
+            duration: Duration(milliseconds: 300),
+            child: _currentScreen(_screenIndex)
+          ),
+        ),
+      ),
+      bottomNavigationBar: AppBottomNavigationBar(
+        currentIndex: _screenIndex,
+        onItemTap: (int index) {
+          ScaffoldMessenger.of(context).removeCurrentSnackBar();
+          setState(() => _screenIndex = index);
+        }
+      ),
+      floatingWidgetTwins: _currentFloatingTwins(),
+      floatingWidgetConfig: _currentFloatingWidetConfig(),
+      floatingWidgetController: _currentFloatingWidgetController(),
+    );
+  }
+
   Widget _currentScreen(screenIndex) {
     if (screenIndex == 0) {
       return HomeScreen();
