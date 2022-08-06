@@ -178,23 +178,6 @@ class _LibState extends State<Lib> {
   }
 
   vo
-  
-  Widget _currentScreen(screenIndex) {
-    if (screenIndex == 0) {
-      return HomeScreen();
-    } else if (screenIndex == 1) {
-      return SubscriptionsScreen();
-    } else if (screenIndex == 2) {
-      return DownloadTab();
-    } else if (screenIndex == 3) {
-      return MediaScreen();
-    } else if (screenIndex == 4) {
-      return LibraryScreen();
-    } else {
-      return Container();
-    }
-  }
-  
   FloatingWidgetTwins _currentFloatingTwins() {
     VideoPageProvider pageProvider = Provider.of<VideoPageProvider>(context);
     if (pageProvider.infoItem != null) {
