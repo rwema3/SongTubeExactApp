@@ -151,6 +151,33 @@ class _LibState extends State<Lib> {
       );
     }
   }
-}
+
+  void _checkForUpdates() {
+    PackageInfo.fromPlatform().then((android) {
+      double appVersion = double
+        .parse(android.version.replaceRange(3, 5, ""));
+      getLatestRelease().then((details) {
+        double newVersion = double.parse(details.version
+          .split("+").first.trim().replaceRange(3, 5, ""));
+        if (appVersion < newVersion) {
+          // Show the user an Update is available
+          showModalBottomSheet(
+            isScrollControlled: true,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(20),
+                topRight: Radius.circular(20)
+              )
+            ),
+            context: context,
+            builder: (context) => AppUpdateSheet(details)
+          );
+        }
+      });
+    });
+  }
+
+  vo
+  }
 
 }
