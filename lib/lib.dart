@@ -178,6 +178,30 @@ class _LibState extends State<Lib> {
   }
 
   vo
+                  return Future.value(false);
+                } else if (_screenIndex == 0 && manager.currentHomeTab != HomeScreenTab.Trending) {
+                  manager.currentHomeTab = HomeScreenTab.Trending;
+                  return Future.value(false);
+                } else {
+                  return Future.value(true);
+                }
+              },
+              child: child,
+            );
+          },
+          child: PageTransitionSwitcher(
+            transitionBuilder: (
+              Widget child,
+              Animation<double> animation,
+              Animation<double> secondaryAnimation,
+            ) {
+              return FadeThroughTransition(
+                fillColor: Theme.of(context).cardColor,
+                animation: animation,
+                secondaryAnimation: secondaryAnimation,
+                child: child,
+              );
+            },
             duration: Duration(milliseconds: 300),
             child: _currentScreen(_screenIndex)
           ),
