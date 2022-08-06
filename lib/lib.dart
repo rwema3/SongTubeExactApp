@@ -178,27 +178,6 @@ class _LibState extends State<Lib> {
   }
 
   vo
-  
-  FloatingWidgetConfig _floatingMusicWidgetConfig() {
-    MediaProvider mediaProvider = Provider.of<MediaProvider>(context);
-    PreferencesProvider prefs = Provider.of<PreferencesProvider>(context);
-    ConfigurationProvider config = Provider.of<ConfigurationProvider>(context, listen: false);
-    return FloatingWidgetConfig(
-      backdropBlurStrength: prefs.enableBlurUI ? 15 : 0,
-      maxHeight: MediaQuery.of(context).size.height,
-      onSlide: (double position) {
-        int sdkInt = config.preferences.sdkInt;
-        final iconColor = Theme.of(context).brightness == Brightness.dark
-          ? Brightness.light : Brightness.dark;
-        if (position > 0.95) {
-          SystemChrome.setSystemUIOverlayStyle(
-            SystemUiOverlayStyle(
-              statusBarIconBrightness: prefs.enablePlayerBlurBackground ? mediaProvider.textColor == Colors.black
-                ? Brightness.dark : Brightness.light : iconColor,
-              systemNavigationBarIconBrightness: prefs.enablePlayerBlurBackground ? sdkInt >= 30 ?
-                mediaProvider.textColor == Colors.black ? Brightness.dark : Brightness.light : null : iconColor,
-            ),
-          );
         } else if (position < 0.95) {
           SystemChrome.setSystemUIOverlayStyle(
             SystemUiOverlayStyle(
