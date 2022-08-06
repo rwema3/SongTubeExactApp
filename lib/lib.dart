@@ -178,7 +178,22 @@ class _LibState extends State<Lib> {
   }
 
   vo
-  
+  }
+
+  FloatingWidgetTwins _musicPlayerTwins() {
+    return FloatingWidgetTwins(
+      expanded: ExpandedPlayer(),
+      collapsed: CollapsedPanel()
+    );
+  }
+
+  FloatingWidgetTwins _youtubePlayerTwins() {
+    return FloatingWidgetTwins(
+      expanded: YoutubePlayerVideoPage(),
+      collapsed: VideoPageCollapsed()
+    );
+  }
+
   FloatingWidgetConfig _floatingMusicWidgetConfig() {
     MediaProvider mediaProvider = Provider.of<MediaProvider>(context);
     PreferencesProvider prefs = Provider.of<PreferencesProvider>(context);
