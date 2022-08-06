@@ -178,30 +178,6 @@ class _LibState extends State<Lib> {
   }
 
   vo
-        } else if (position < 0.95) {
-          SystemChrome.setSystemUIOverlayStyle(
-            SystemUiOverlayStyle(
-              statusBarIconBrightness: iconColor,
-              systemNavigationBarIconBrightness: iconColor,
-            ),
-          );
-        }
-      }
-    );
-  }
-
-  FloatingWidgetController _currentFloatingWidgetController() {
-    MediaProvider mediaProvider = Provider.of<MediaProvider>(context);
-    VideoPageProvider pageProvider = Provider.of<VideoPageProvider>(context);
-    if (pageProvider.infoItem != null) {
-      return pageProvider.fwController;
-    } else {
-      if (AudioService?.currentMediaItem != null) {
-        return mediaProvider.fwController;
-      } else {
-        return null;
-      }
-    }
   }
 
 }
