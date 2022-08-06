@@ -178,6 +178,17 @@ class _LibState extends State<Lib> {
   }
 
   vo
+  FloatingWidgetTwins _currentFloatingTwins() {
+    VideoPageProvider pageProvider = Provider.of<VideoPageProvider>(context);
+    if (pageProvider.infoItem != null) {
+      return _youtubePlayerTwins();
+    } else {
+      if (AudioService?.currentMediaItem != null) {
+        return _musicPlayerTwins();
+      } else {
+        return null;
+      }
+    }
   }
   
   FloatingWidgetConfig _currentFloatingWidetConfig() {
