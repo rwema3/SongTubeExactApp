@@ -177,7 +177,13 @@ class _LibState extends State<Lib> {
     });
   }
 
-  vo    builder: (_) => LoadingDialog()
+  void _handleIntent(String intent) async {
+    String streamId = await YoutubeId.getIdFromStreamUrl(intent);
+    String playlistId = await YoutubeId.getIdFromPlaylistUrl(intent);
+    if (streamId != null) {
+      showDialog(
+        context: context,
+        builder: (_) => LoadingDialog()
       );
     
       YoutubePlaylist playlist = await PlaylistExtractor
