@@ -177,7 +177,18 @@ class _LibState extends State<Lib> {
     });
   }
 
- 
+      showDialog(
+        context: context,
+        builder: (_) => LoadingDialog()
+      );
+      YoutubePlaylist playlist = await PlaylistExtractor
+        .getPlaylistDetails(intent);
+      Provider.of<VideoPageProvider>(context, listen: false)
+        .infoItem = playlist.toPlaylistInfoItem();
+      Navigator.pop(context);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     setSystemUiColor(context);
