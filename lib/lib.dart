@@ -177,7 +177,14 @@ class _LibState extends State<Lib> {
     });
   }
 
- 
+  void _handleIntent(String intent) async {
+    String streamId = await YoutubeId.getIdFromStreamUrl(intent);
+    String playlistId = await YoutubeId.getIdFromPlaylistUrl(intent);
+    if (streamId != null) {
+      showDialog(
+        context: context,
+        builder: (_) => LoadingDialog()
+      );
       YoutubeVideo video = await VideoExtractor.getStream(intent);
       Provider.of<VideoPageProvider>(context, listen: false)
         .infoItem = video.toStreamInfoItem();
