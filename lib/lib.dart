@@ -177,6 +177,47 @@ class _LibState extends State<Lib> {
     });
   }
 
+ 
+  @override
+  Widget build(BuildContext context) {
+    setSystemUiColor(context);
+    return GestureDetector(
+      onTap: () => FocusScope.of(context).requestFocus(new FocusNode()),
+      child: _libBody()
+    );
+  }
+
+  Widget _libBody() {
+    return FancyScaffold(
+      backgroundColor: Theme.of(context).cardColor,
+      resizeToAvoidBottomInset: false,
+      internalKey: _internalScaffoldKey,
+      body: SafeArea(
+        child: Consumer3<MediaProvider, ManagerProvider, VideoPageProvider>(
+          builder: (context, mediaProvider, manager, pageProvider, child) {
+            return WillPopScope(
+              onWillPop: () {
+                if (pageProvider.fwController.isAttached && pageProvider.fwController.isPanelOpen) {
+                  pageProvider.fwController.close();
+                  return Future.value(false);
+                } else if (mediaProvider.slidingPanelOpen) {
+                  mediaProvider.slidingPanelOpen = false;
+                  mediaProvider.fwController.close();
+                  return Future.value(false);
+                } else if (_screenIndex != 0) {
+                  setState(() => _screenIndex = 0);
+                  return Future.value(false);
+                } else if (manager.youtubeSearch != null) {
+                  manager.youtubeSearch = null;
+                  manager.setState();
+                  return Future.value(false);
+                } else if (_screenIndex == 0 && manager.currentHomeTab != HomeScreenTab.Trending) {
+                  manager.currentHomeTab = HomeScreenTab.Trending;
+                  return Future.value(false);
+                } else {
+                  return Future.value(true);
+                }
+              },
               child: child,
             );
           },
