@@ -177,6 +177,26 @@ class _LibState extends State<Lib> {
     });
   }
 
+              child: child,
+            );
+          },
+          child: PageTransitionSwitcher(
+            transitionBuilder: (
+              Widget child,
+              Animation<double> animation,
+              Animation<double> secondaryAnimation,
+            ) {
+              return FadeThroughTransition(
+                fillColor: Theme.of(context).cardColor,
+                animation: animation,
+                secondaryAnimation: secondaryAnimation,
+                child: child,
+              );
+            },
+            duration: Duration(milliseconds: 300),
+            child: _currentScreen(_screenIndex)
+          ),
+        ),
       ),
       bottomNavigationBar: AppBottomNavigationBar(
         currentIndex: _screenIndex,
