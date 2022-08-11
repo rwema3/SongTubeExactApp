@@ -1,4 +1,4 @@
-// Flutter
+6// Flutter
 import 'package:animations/animations.dart';
 import 'package:audio_service/audio_service.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +12,7 @@ import 'package:package_info/package_info.dart';
 import 'package:songtube/internal/nativeMethods.dart';
 import 'package:songtube/internal/systemUi.dart';
 
-// Internal
+
 import 'package:songtube/internal/updateChecker.dart';
 import 'package:songtube/players/components/musicPlayer/collapsedPanel.dart';
 import 'package:songtube/players/components/musicPlayer/expandedPanel.dart';
